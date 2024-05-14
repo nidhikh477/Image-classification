@@ -17,6 +17,14 @@ In this data science and machine learning project, I have classified sports pers
 6. Python flask for http server
 7. HTML/CSS/Javascript for UI
 
+### Folder structure
+
+* <b>UI : This contains ui website code</b> 
+* <b>server: Contains the Python flask server related code</b>
+* <b>model: Contains python notebook for model building</b>
+* <b>google_image_scrapping: Contains the code to scrap google for images</b>
+* <b>images_dataset: Dataset used for training our model</b>
+
 ## Model Selection and Methodology
 ![image](https://github.com/ritwik4690/Image-Classifier/blob/master/model_performance.png)  
 In this project, OpenCV haarcascade was used to detect face and two eyes. Wavelet transform was used to extract these features from the images. Finally after processing and cleaning the data, it was given as input to models. Various models were tried using GridSearchCV and **Logistic Regression** was found to give the best resutls with a score of **84.15%**.  
